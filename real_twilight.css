@@ -1,0 +1,191 @@
+/*
+	@theme SL TextMate Twilight
+	@override-placeholders html, xml, css, php, sourcecode.js
+*/
+
+css property-name {
+	color: #C5AF75;
+}
+
+css property-value {
+	color: #F9EE98 ;
+}
+
+css {
+	spell-check: disabled;
+}
+
+css.selector, css.selector > entity > punctuation {
+	color: #8B98AB;
+}
+
+css > property-name {
+	color: #d0bc88;
+}
+
+css > property-value {
+	color: #faf0a8;
+}
+
+css keyword.important {
+	color: #CDA869;
+}
+
+css nzumeric {
+	color: #CA7840;
+}
+
+css zunit {
+	color: #C5AF75;
+}
+
+css rgb-value {
+	color: #CA7840;
+}
+
+css property-list.block {
+	color: #fff;
+	font-size: 10px;
+}
+
+css.at-rule string, css.at-rule string punctuation, media.css > block > punctuation, property-list.css > property-value > punctuation {
+	color: #fff;
+}
+
+
+keyword.important.css {
+	font-weight: bold;
+	color: #6700b9;
+}
+
+
+@base {
+	color: #fff;
+	background-color: #191919;
+	insertion-point-color: #fff;
+	selection-background-color: default;
+}
+
+tag, source, sourcecode {
+	spell-check: disabled;
+}
+
+tag, tag > string > punctuation {
+	oldcolor: #8FCFFF;
+	lessoldcolor: #9FDFFF;
+	color: #e7cf9b;
+}
+
+tag > name, tag > string.quoted - punctuation, attribute-with-value > string.quoted - punctuation {
+	oldcolor: #2F5F7F;
+}
+
+tag>name {
+	color: #e7cf9b;
+}
+
+attribute-name, punctuation.definition.tag {
+	color: #e7cf9b;
+	newcolor: #6FBFFF;
+}
+
+tag > string.quoted, tag > attribute-with-value > string.quoted {
+	color: #a0ab7d;
+}
+
+tag > string > punctuation {
+	font-weight: normal;
+}
+
+css.embedded attribute-name, css.embedded punctuation.definition.tag {
+	color: #DF9F4F;
+}
+
+comment, comment>punctuation, tag.doctype, tag.doctype > *, tag.doctype > string.quoted {
+	color: #AEAEAE;
+	font-style: italic;
+}
+
+tag.h1, tag.h1 * {
+	font-weight: bold;
+	color: #000000;
+}
+
+latex.function function - parameter, latex.keyword {
+	color: #699d36;
+}
+
+string.quoted {
+	color: #a0ab7d;
+}
+
+string.quoted > escape {
+	background-color: #e8ffd5;
+	font-weight: bold;
+}
+
+variable {
+	color: #889ab5;
+}
+
+variable>punctuation {
+	color: #889ab5;
+}
+
+operator {
+	color: #d7b67c;
+}
+
+open-bracket, close-bracket {
+	color: #7f7f7f;
+}
+
+support.function, function-call {
+	color: #DAD085;
+}
+
+support.constant.dom {
+	color:  #CF6A4C;
+}
+
+keyword.control, storage.type {
+	color: #d7b67c;
+}
+
+function > name {
+	color: #ac8350;
+}
+
+function > variable,
+variable.language {
+	color: #889ab5;
+}
+
+meta.class.instance.constructor entity.name.type.instance {
+	color: #89BDFF;
+	text-decoration: underline !important;
+}
+
+keyword.operator,
+keyword.control {
+	color: #E28964;
+}
+
+constant.numeric {
+	background-color: transparent;
+	color: #da7f5e;
+}
+
+js.embedded {
+	color: #fff;
+}
+
+invalid {
+	background-color: #f93232;
+	color: #f9f2ce;
+}
+
+textile > header {
+	color: #fff;
+	font-weight: bold;
+}
